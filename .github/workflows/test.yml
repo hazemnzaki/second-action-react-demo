@@ -28,4 +28,4 @@ jobs:
         - name: Build project
           run: npm run build
         - name: Deploy to GitHub Pages
-          uses: echo "Deploying..."
+          run: echo "Deploying..."
